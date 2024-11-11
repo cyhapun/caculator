@@ -1,0 +1,50 @@
+.container {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 2em;
+    color:black;
+    background-color:darkgray;
+    font-style: initial;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.results {
+    display: flex;
+    justify-content: stretch;
+    height: 50px;
+    border: 1px solid black;
+}
+
+.result {
+    flex-grow: 1;
+    margin: 5px;
+    text-align: right;
+    font-size: 1.2em;
+    font-weight: bold;
+    color:black;
+}
+
+.buttons {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+
+.button {
+    flex-grow: 1;
+    margin: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    width: 30px;
+}
